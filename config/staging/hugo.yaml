@@ -1,0 +1,70 @@
+baseURL: "https://www.example.com/"
+theme: "up-business-theme"
+languageCode: "en-us"
+
+title: "Goviate"
+
+# googleAnalytics: ""
+
+summaryLength: 20
+
+params:
+  title: "Goviate"
+  description: "We specialize in providing national-wide bidding opportunities for small business owner."
+  images: 
+    - "images/hero-image.png"
+
+  logo: "arrow-up.png"
+
+  favicons:
+    themeColor: "#FFFFFF"
+    backgroundColor: "#FFFFFF"
+    faviconColor: "#000000"
+
+  social:
+    dribbble: "#"
+    instagram: "#"
+    facebook: "#"
+    twitter: "#"
+
+  location:
+    - "780 Boylston st, Boston 02199"
+
+  contact:
+    - "test@gamail.com"
+    - "857.214.9322"
+
+  copyright: "© 2022 Goviate All Rights Reserved"
+
+menus:
+  main:
+    - name: "Home"
+      url: "/#hero"
+      weight: 1
+
+    - name: "How we work"
+      url: "/#"
+      weight: 2
+
+  buttons:
+    - name: "Get Start"
+      url: "/#"
+      weight: 3
+      pre: "btn btn-primary text-light"
+
+  footer:
+    - name: "Home"
+      url: "/#hero"
+      weight: 1
+
+    - name: "How we work"
+      url: "/#"
+      weight: 2
+
+    - name: "Our team"
+      url: "/#"
+      weight: 3
+
+taxonomies:
+  series: "series"
+  tags: "tags"

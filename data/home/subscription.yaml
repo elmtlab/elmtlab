@@ -1,0 +1,10 @@
+enabled: true
+id: "subscription"
+
+
+content:
+  title: "Subscribe with your email for the latest bidding opportunities!"
+  buttonSubscription:
+    label: "Subscription"
+    url: "#"
+
