@@ -1,4 +1,6 @@
+
 {{ define "main" }}
+  {{ template "_internal/google_analytics.html" . }}
   {{ with .Site.Data.home.hero }}{{ partial "sections/hero.html" . }}{{ end }}
   <!-- {{ with .Site.Data.home.brands }}{{ partial "sections/brands.html" . }}{{ end }} -->
   <!-- {{ with .Site.Data.home.portfolio }}{{ partial "sections/portfolio.html" . }}{{ end }} -->
