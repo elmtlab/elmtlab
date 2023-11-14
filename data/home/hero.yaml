@@ -2,8 +2,8 @@ enabled: true
 id: "hero"
 
 content:
-  title: "Unlock **Opportunities**, Save **Time**, Grow Your **Business**"
-  text: "Welcome to Goviate, where we bring the opportunities to your doorstep, so you can focus on what truly matters –- growing your business."
+  title: "Unearth **Opportunities**, Save **Time**, Grow Your **Business**"
+  text: "Welcome to Goviate, where we bring the federal, state and local bidding opportunities to your doorstep, so you can focus on what truly matters –- growing your business."
 
   # buttonPrimary:
   #   label: "How we work"

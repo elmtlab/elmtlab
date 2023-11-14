@@ -1,18 +1,27 @@
-<section class="section hero py-5">
-    <div class="container">
-        <div class="row flex-column ">
-            <div class="col-12 col-xl-4 d-flex flex-column justify-content-center"></div>
-            <div class="col-12 col-xl-8 d-flex flex-column justify-content-center">
+<section class="section subscription py-5">
+    <div class="container" id="subscription">
+        <div class="row flex-column flex-xl-row-reverse">
+            <div class="col-12 col-xl-4 d-flex flex-column justify-content-center">
+                <div id="subscription_form">
 
-                <div class="d-flex flex-column flex-xl-row">
-                    <!-- {{ with .content.buttonSubscription }}
-                    <a class="btn btn-primary text-light px-4 my-1" href="{{ .url }}">{{ .label }}</a>
-                    {{ end }} -->
+                    {{ with .content.title }}
+                    <h3 class="hero-title fw-bold display-1 text-primary text-center text-xl-start pb-4">{{ . | markdownify }}</h3>
+                    {{ end }}
                     <form>
                         <input type="email" class="" id="subscription_email" name="subscription_email" placeholder="Enter your email address">
+                        <br/>
+                        <input type="text" class="" id="subscription_fist_name" name="subscription_fist_name" placeholder="Fist name">
+                        <br/>
+                        <input type="text" class="" id="subscription_last_name" name="subscription_last_name" placeholder="Last name">
+                        <br/>
                         <input type="submit" class="btn btn-primary text-light px-4 my-1" value="Subscribe">
                     </form>
+                </div>
+            </div>
+            <div class="col-12 col-xl-8 d-flex flex-column justify-content-center">
                 
+                <div class="col-12 col-xl-10  d-flex flex-column justify-content-center hero-image">
+                    {{ partial "utilities/image-fluid" "images/hero-image.png" }}
                 </div>
                 
             </div>

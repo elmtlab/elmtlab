@@ -3,7 +3,7 @@ id: "subscription"
 
 
 content:
-  title: "Subscribe with your email for the latest bidding opportunities!"
+  title: "Subscribe for latest news!"
   buttonSubscription:
     label: "Subscription"
     url: "#"

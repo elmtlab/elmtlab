@@ -47,14 +47,14 @@ menus:
     #   weight: 2
 
   buttons:
-    - name: "Get Start"
+    - name: "Sign Up"
       url: "/#subscription"
       weight: 3
       pre: "btn btn-primary text-light"
 
   footer:
     - name: "Home"
-      url: "/#hero"
+      url: "#hero"
       weight: 1
 
     # - name: "How we work"
